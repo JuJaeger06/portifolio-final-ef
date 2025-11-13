@@ -251,9 +251,9 @@ const getImagePath = (aulaId: string, imgName: string) => {
   let imagePath = '';
 
   if (imgName != '') {
-    imagePath = `../assets/Aula_${aulaId}/${imgName}`;
+    imagePath = `/Aula_${aulaId}/${imgName}`;
   } else {
-    imagePath = `../assets/Aula_${aulaId}/capa_${aulaId}.jpg`;
+    imagePath = `/Aula_${aulaId}/capa_${aulaId}.jpg`;
   }
 
   return new URL(imagePath, import.meta.url).href;

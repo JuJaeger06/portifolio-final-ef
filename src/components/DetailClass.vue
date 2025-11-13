@@ -224,7 +224,7 @@ const lstAulas = ref<AulaDetail[]>([
     content: 'Português e Geografia',
     img: 'aula_geografia.jpg',
     topicos: [
-      { titulo: 'Português', description: '' },
+      { titulo: 'Português', description: 'Montar palavra jogando bolinha em copos com silabas.' },
       { titulo: 'Geografia', description: 'Caça Tesouro com coordenadas das Rosas dos Ventos.' },
     ],
   },

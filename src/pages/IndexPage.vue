@@ -63,7 +63,7 @@ const lstAulas = ref<Aulas[]>([
   {
     id: '9',
     dia: '16/10/2025',
-    content: 'Aula interdisciplinar  - avaliação Geografia e Português',
+    content: 'Aula interdisciplinar - Geografia e Português',
   },
   // {
   //   id: '10',
@@ -73,7 +73,7 @@ const lstAulas = ref<Aulas[]>([
   {
     id: '11',
     dia: '30/10/2025',
-    content: 'Casa verônica ',
+    content: 'Casa verônica',
   },
 ]);
 </script>
